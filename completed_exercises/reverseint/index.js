@@ -19,3 +19,35 @@ function reverseInt(n) {
 }
 
 module.exports = reverseInt;
+
+/* var reverseInt = function (num) {
+    // Change the input integer into a string and reverse it    
+    var rev = num
+    .toString()
+    .split('')
+    .reverse()
+    .join('');
+    
+    // Multiply the sign of the original integer
+    // times the new reversed integer stored in the variable
+    return Math.sign(num) * parseInt(rev);
+    
+} */
+
+/* My original solution
+
+var reverseInt = function (num) {
+ 
+    var rev = Math.sign(num) * num;
+        
+    var rev = num
+    .toString()
+    .split('')
+    .reverse()
+    .join('');
+    
+    rev = parseInt(rev);
+    
+    return Math.sign(num) * rev;
+    
+} */

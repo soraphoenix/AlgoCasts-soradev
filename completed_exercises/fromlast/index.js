@@ -29,3 +29,24 @@ function fromLast(list, n) {
 }
 
 module.exports = fromLast;
+
+// // My original solution
+// function fromLast(list, n) {
+//   // Set the variables to traverse the nodes
+//   let slow = list.head;
+//   let fast = list.head;
+//   // Move the fast variable ahead in nodes n number of times
+//   for(i=0; i<n; i++) {
+//       fast = fast.next;
+//   }
+
+//   // Loop through the list one node at a time until the end
+//   // of the list is reached
+//   while(fast.next) {    
+//       // Increment the variables for the next iteration
+//       slow = slow.next;
+//       fast = fast.next;
+//   }
+//   // Return the slow variable when the while loop finishes
+//   return slow;
+// }

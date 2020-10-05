@@ -25,3 +25,19 @@ function midpoint(list) {
 }
 
 module.exports = midpoint;
+
+// function midpoint(list) {
+//   // Set variables that will track the list at different paces
+//   let slow = list.getFirst();
+//   let fast = list.getFirst();
+
+//   // Loop through the list while updating the node references 
+//   // until it reaches the end. 
+//   while(fast.next && fast.next.next) {
+//       slow = slow.next;
+//       fast = fast.next.next;
+//   }
+
+//   // Then, return the node stored in the slow variable
+//   return slow;
+// }
