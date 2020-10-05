@@ -41,3 +41,27 @@ function weave(sourceOne, sourceTwo) {
 }
 
 module.exports = weave;
+
+// function weave(sourceOne, sourceTwo) {
+//   // Initialize a new class for the weaved queue
+//   const q = new Queue();
+
+//   // Loop through the indexes of both queues using the peek function
+//   // in the class until no result is returned
+//   while (sourceOne.peek() || sourceTwo.peek()) {
+//       // Conditional will return a value from the object as long as  
+//       // there is one available in its queue. Nothing will be returned
+//       // If there are no further values in the queue.
+//       if(sourceOne.peek()) {
+//           q.add(sourceOne.remove());
+//       }
+
+//       // Same conditional as the one right above but for the second queue object
+//       if(sourceTwo.peek()) {
+//           q.add(sourceTwo.remove());
+//       }
+//   }
+
+//   // Return the newly weaved queue object
+//   return q;
+// }
