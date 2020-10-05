@@ -1,3 +1,3 @@
-# AlgoCasts
+# AlgoCasts-soradev
 
-Companion repo to [The Coding Inteview Bootcamp: Algorithms + Data Structures](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)
+Whiteboard questions and answers for JavaScript that I update as I solve. Derived from the project files in The Coding Interview Bootcamp by Stephen Grider located here: https://github.com/StephenGrider/AlgoCasts.
